@@ -10,6 +10,8 @@
 public class StudentJava {
     private String name;
     private int sid;
+    private int semester;
+    private String prgname
     
     public Student(String name, int sid) {
     this.name = name;
