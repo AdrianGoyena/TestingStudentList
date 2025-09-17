@@ -5,7 +5,7 @@
 
 /**
  *
- * @author adria
+ *This is branch parttime
  */
 public class StudentList {
     public static void main(String[] args) {
