@@ -5,7 +5,7 @@
 
 /**
  *
- * @author adria
+ * @author adrian
  */
 public class StudentJava {
     private String name;
