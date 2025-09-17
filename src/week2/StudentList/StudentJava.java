@@ -17,4 +17,20 @@ public class StudentJava {
     this.name = name;
     this.sid = sid;
     }
+    
+    public int getSid() {
+        return sid;
+    }
+    
+    public void setSid(int sid) {
+        this.sid = sid;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
 }

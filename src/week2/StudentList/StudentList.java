@@ -25,7 +25,7 @@ public class StudentList {
         
         Student s3 = new Student();
         s3.setSid(13);
-        s3.setName("hala")
+        s3.setName("Luoli")
         //save objects in array
         Student[] list = new Student[3]; //Array of objects
         list[0]=s1;
