@@ -8,36 +8,28 @@
  * @author adria
  */
 public class StudentList {
-//Today's date is September 17
-    //testing another edit Luoral
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        //print 3 student details id, name
-        
-        Student s1 = new Student();
+        // Create StudentJava objects (not Student)
+        StudentJava s1 = new StudentJava("", 0); // Using constructor
         s1.setSid(11);
-        s1.setName("peter")
-                
-        Student s2 = new Student();
-        s2.setSid(12);
-        s2.setName("chun)
+        s1.setName("peter"); // Added semicolon
         
-        Student s3 = new Student();
+        StudentJava s2 = new StudentJava("", 0);
+        s2.setSid(12);
+        s2.setName("chun"); // Added semicolon and fixed quote
+        
+        StudentJava s3 = new StudentJava("", 0);
         s3.setSid(13);
-        s3.setName("Luoli")
-        //save objects in array
-        Student[] list = new Student[3]; //Array of objects
-        list[0]=s1;
-        list[1]=s2;
-        list[2]=s3; //saved the objects
-        for(int i=0;i<list.length;i++)
-        {
-            System.out.println(list[i].getName() + list[i].getSid());
+        s3.setName("Luoli"); // Added semicolon
+        
+        // Save objects in array
+        StudentJava[] list = new StudentJava[3];
+        list[0] = s1;
+        list[1] = s2;
+        list[2] = s3;
+        
+        for(int i = 0; i < list.length; i++) {
+            System.out.println(list[i].getName() + " " + list[i].getSid()); // Added space for readability
         }
-        }
-    }
+    } // Removed extra closing brace
 }
-
-

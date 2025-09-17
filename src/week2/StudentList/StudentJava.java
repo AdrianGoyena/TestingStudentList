@@ -3,19 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-/**
- *
- * @author adrian
- */
 public class StudentJava {
     private String name;
     private int sid;
     private int semester;
-    private String prgname
+    private String prgname; // Added semicolon
     
-    public Student(String name, int sid) {
-    this.name = name;
-    this.sid = sid;
+    public StudentJava(String name, int sid) { // Changed to match class name
+        this.name = name;
+        this.sid = sid;
     }
     
     public int getSid() {
